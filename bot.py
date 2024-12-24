@@ -16,8 +16,8 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash=API_HASH,
-            api_id=API_ID,
+            api_hash=aeac46b1d123e82fe6dcb43b6a26cfae,
+            api_id=21418386,
             plugins={"root": "plugins"},
             workers=TG_BOT_WORKERS,
             bot_token=BOT_TOKEN
